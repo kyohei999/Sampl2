@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title >ユーザ登録画面</title>
+
+<script type="text/javascript" src="http://use.typekit.com/qcc5ovd.js"></script>
+
+</head>
+<body>
+   <div align="center"  class="sliderbox">
+   <!-- ▼最初に表示させる画像 -->
+   <img src="../image/image1.jpg" id="slideshow"><br>
+   <!-- ▼スライダーの開始・停止ボタン -->
+   <input type="button" value="開始／停止" id="startstopbtn">
+   </div>
+
+	<jsp:include page="/header.jsp"/>
+	<h1 style="text-align: center;">ユーザ登録画面</h1>
+	<form action="${pageContext.request.contextPath}/UserInputServlet" method="post">
+		<table align="center">
+			<tr>
+				<td>ユーザID</td>
+				<td><input type="text" name="userId"></td>
+			</tr>
+			<tr>
+				<td>ユーザ名</td>
+				<td><input type="text" name="userName"></td>
+			</tr>
+			<tr>
+				<td>パスワード</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<input type="submit" value="登録">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<p>(^O^)(^o^) うわぁーっ(^o^) うわぁーっ(^o^) うわぁーっ
+				(｀・ω・´)ｷﾘｯ
+			（･`ω･´）ｷﾘｯ
+			( ｰ`дｰ´)ｷﾘｯ
+			~( ~`・ω・´)~
+			(｀◎ω◎´)
+			(๑• ̀ω•́๑)✧
+			（･`,_ゝ･´）ｷﾘｯ
+			(´・ω・｀)ｷﾘｯ?
+			( *｀ω´)
+			m9っ`･ω･´)ｷﾘｯ
+	</p>
+
+	<p style="text-align: center;"><a href="javascript:(function () {var s = document.createElement('script');s.setAttribute('src', 'http://fontbomb.ilex.ca/js/main.js');document.body.appendChild(s);}());"><strong>*押すな！*</strong></a></p>
+
+	<script type="text/javascript" src="Sample.js"></script>
+	<script src = "Sample.js"></script>
+</body>
+</html>
